@@ -467,7 +467,7 @@ def main():
 
             print('Thanks for Using Schema Creator')
             print("\n    Press Enter To Create More Schemas...")
-            time.sleep(1)
+            # time.sleep(1)
             
             
             var = getkey()
@@ -491,6 +491,6 @@ def main():
 
     else:
     #     print('Thanks for Using Schema Creator')  
-        time.sleep(0.1)
+        time.sleep(0.01)
         
 main() 
