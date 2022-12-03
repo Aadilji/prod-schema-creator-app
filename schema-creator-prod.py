@@ -471,8 +471,7 @@ def main():
             
             
             var = getkey()
-            if time.sleep(10):
-                exit()
+
             if var == key.ENTER:
                 main()
 
@@ -491,6 +490,6 @@ def main():
 
     else:
     #     print('Thanks for Using Schema Creator')  
-        time.sleep(0.01)
+        time.sleep(1)
         
 main() 
